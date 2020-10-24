@@ -21,7 +21,7 @@ osascript <<EOS
   if dock_bottom then
       "<div id='wrapper' style='width: calc(50% - ("& dock_width &"px / 2) - 8px); height: calc("& dock_height &"px - 8px); font-size: "& dock_height &"px;'>"
   else
-      "<div id='wrapper' style='width: 25%;'>"
+      "<div id='wrapper' style='width: 33%; height: calc(7vh - 8px); font-size: 7vh;'>"
   end if
 EOS
 
